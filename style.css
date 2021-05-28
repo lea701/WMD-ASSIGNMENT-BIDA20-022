@@ -1,0 +1,173 @@
+*
+ {
+ 	margin:0;
+ 	padding: 0;
+  }
+.header
+{
+	 height: 100vh;
+	 position: relative;
+	 background-size: 100%;
+	 background-position: center;
+  background-color: darkcyan;
+}
+.main-nav
+{
+	float: left; 
+	list-style: none;
+	margin-top: 30px;
+
+}
+
+.main-nav li
+{
+	display: inline-block;
+  background-image: url(mabhida.jpg);
+
+}
+.main-nav li a
+{
+	color: rgb(130, 70, 187);
+	text-decoration: none;
+	padding: 5px 25px;
+	font-family: "Roboto",sans-serif;
+	font-size: 15px;
+}
+
+.main-nav li.active a
+{
+	border: 1px solid white;
+}
+
+.main-nav li a:hover
+{
+	border: 1px solid cyan;
+}
+
+.logo img
+{
+	width: 150px;
+	height: auto;
+	float: left;
+}
+
+body
+{
+ font-family: monospace;
+ background-image: url(nightview.jpg);
+}
+
+.row
+{
+	max-width: 1200px;
+	margin: auto;
+
+}
+
+.banner
+{
+  background-image: url(nightview.jpg);
+	position: absolute;
+	width: 800px;
+	margin-left:200px;
+  margin-right:300px;
+	margin-top: 200px;
+	color: rgb(232, 250, 245);
+	text-transform: uppercase;
+	text-align: center;
+  
+}
+
+
+
+.banner h2
+{
+  font-size: 100px;
+
+}
+.h2
+{
+	color: black;
+	text-transform: lowercase;
+	font-size: 5em;
+	text-align: center;
+	margin-top: 375px;
+  margin-left:500px;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */  
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.side-nav {
+  background-image: url(fillup.jpg);
+  height: 100%;
+  width: 160px;
+  margin-top: 150px;
+  float: right;
+  position: fixed;
+  z-index: 1;
+  margin-left: 1px;
+  background-color: rgb(121, 114, 230);
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.side-nav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: -webkit-inline-box;
+}
+
+.side-nav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-right: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .side-nav {padding-top: 15px;}
+  .side-nav a {font-size: 18px;}
+}
+
+
